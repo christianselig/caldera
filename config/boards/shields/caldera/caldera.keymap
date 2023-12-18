@@ -18,7 +18,7 @@
    &kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T                &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH
    &kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G                &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET
    &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B                &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
-   &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp SPACE  &kp SPACE            &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
+   &kp W  &kp H  &kp A  &kp T  &kp I  &kp LGUI            &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
                         >;
                 };
                 lower_layer {
@@ -30,7 +30,7 @@
                         bindings = <
    &trans    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4           &trans    &trans    &trans   &trans   &trans  &bt BT_CLR
    &trans    &trans         &trans         &trans         &trans         &trans                 &trans    &trans    &trans   &trans   &trans  &trans
-   &trans    &trans         &trans         &kp LPAR       &kp RPAR       &trans                 &trans    &kp LBKT  &kp RBKT &trans   &trans  &trans
+   &trans    &trans         &trans         &kp LPAR       &kp RPAR       &trans                 &trans    &kp LBKT  &kp RBKT &kp MINUS   &kp EQUAL  &trans
    &trans    &trans         &trans         &trans         &trans         &trans                 &trans    &trans    &trans   &trans   &trans  &trans
                         >;
                 };
